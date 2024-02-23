@@ -6,7 +6,6 @@ import JavascriptIcon from "../assets/js-icon.png";
 import ReactIcon from "../assets/react-icon.png";
 import VueIcon from "../assets/vue-icon.png";
 import TypeScriptIcon from "../assets/typescript-icon.png";
-import daisyUIIcon from "../assets/daisyui-logo-icon.png";
 import NextIcon from "../assets/next-js-icon.png";
 import TailwindIcon from "../assets/tailwind-css-icon.jpg";
 import firebaseIcon from "../assets/firebase-icon.png";
