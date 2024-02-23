@@ -1,9 +1,8 @@
 'use client'
 
 import React from 'react'
-import StanojKocevPhoto from '../assets/linkedin photo.jpg'
+import myPhoto from '../assets/skocev.png'
 import Image from 'next/image'
-
 const Aboutme = (): React.ReactNode => {
 
     return (
