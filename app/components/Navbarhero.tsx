@@ -64,7 +64,7 @@ const Navbar = (): React.ReactNode => {
 
 
     return (
-        <div className=' h-[600px] bg-hero flex justify-end items-center relative xs:flex-col xs:justify-center xs:text-center sm:flex-col sm:justify-center sm:text-center md:flex-col md:justify-center md:text-center lg:flex-col lg:justify-center lg:text-center xl:justify-center xl:text-center xl:flex-col xxl:flex-col xxl:justify-center xxl:text-center'>
+        <div className=' h-[600px] bg-hero bg-cover flex justify-end items-center relative xs:flex-col xs:justify-center xs:text-center sm:flex-col sm:justify-center sm:text-center md:flex-col md:justify-center md:text-center lg:flex-col lg:justify-center lg:text-center xl:justify-center xl:text-center xl:flex-col xxl:flex-col xxl:justify-center xxl:text-center'>
             <div className='w-1/2'></div>
             <div className='w-1/2 flex flex-col gap-16 justify-start xs:w-full sm:w-full md:w-full lg:w-full xl:w-full xxl:w-full'>
                 <div className='px-32 flex gap-8 justify-end xs:p-0 xs:justify-center sm:p-0 sm:justify-center md:justify-center lg:justify-center xl:justify-center xxl:justify-center'>
