@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html data-theme="synthwave" lang="en" className=' transition-all scroll-smooth'>
+    <html data-theme="synthwave" lang="en" className=' transition-all scroll-smooth text-white'>
       <body className={inter.className}>{children}</body>
     </html>
   )
