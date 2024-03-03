@@ -48,12 +48,12 @@ const Stack = (): React.ReactNode => {
                     </div>
                     <div className='flex flex-col p-8 w-auto items-center'>
                         <div className='flex flex-col gap-4'>
-                            <h2 className='text-2xl'>Databases</h2>
-                            <div>
+                            <h2 className='text-2xl'>Frontend Frameworks</h2>
+                            <div className=' h-full flex flex-col gap-12 xs:items-center sm:items-center'>
                                 {dataBases.map((item, id) => {
                                     return <div key={id}>
                                         <ul className='flex items-center gap-2'>
-                                            <Image src={item.icon} alt={`${item.name}`}></Image>
+                                            <Image height={40} src={item.icon} alt={`${item.name}`}></Image>
                                             <li>{item.name}</li>
                                         </ul>
                                     </div>

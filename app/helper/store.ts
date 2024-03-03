@@ -16,6 +16,7 @@ import ZustandIcon from "../assets/zustand-icon.jpg";
 import HTMLIcon from "../assets/html-icon.png";
 import CSSIcon from "../assets/css-icon.png";
 import WeDu from "../assets/wedu-card.png";
+import mongoDBIcon from "../assets/mongodb.jpg";
 import VintageCarGrg from "../assets/VintageGarageWebsiteCardImg.png";
 import MacasCookieHouse from "../assets/MacasCookieHse.png";
 
@@ -126,6 +127,10 @@ export const useZustandStore = create<zustandStoreInterface>((set, get) => ({
     {
       name: "Firebase",
       icon: firebaseIcon,
+    },
+    {
+      name: "MongoDB",
+      icon: mongoDBIcon,
     },
   ],
   otherTools: [
