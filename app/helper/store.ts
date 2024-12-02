@@ -19,6 +19,7 @@ import WeDu from "../assets/wedu-card.png";
 import mongoDBIcon from "../assets/mongodb.jpg";
 import VintageCarGrg from "../assets/VintageGarageWebsiteCardImg.png";
 import MacasCookieHouse from "../assets/MacasCookieHse.png";
+import awsIcon from "../assets/aws-icon.png";
 
 interface zustandStoreInterface {
   aboutMeToggle: boolean;
@@ -145,6 +146,10 @@ export const useZustandStore = create<zustandStoreInterface>((set, get) => ({
     {
       name: "Responsive Web Design",
       icon: responsiveIcon,
+    },
+    {
+      name: "AWS",
+      icon: awsIcon,
     },
   ],
   formInputs: [
